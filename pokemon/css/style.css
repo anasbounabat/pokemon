@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  width: 100%;
+
+}
+
+body {
+  
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #909090;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 20px;
+  height: 40px;
+  color: white;
+}
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+header h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #555;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+h2{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px;
+  font-size: 30px;
+  
+}
+
+.form-section {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px 0;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+.result-section {
+  padding: 20px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.combat-result {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  word-wrap: break-word;
+  min-height: 200px;
+}
+
+.combat-text {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  color: #555;
+  
+}
+        
+.pokemon-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 20px;
+  padding: 10px;
+  max-width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+
+
+.pokemon-card {
+  text-align: center;
+  border: 6px solid #000000;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #d4d4d4;
+  width: 300px;
+  height: 400px;
+  
+}
+
+.pokemon-card img {
+  width: 95%;
+  height: 60%;
+  border: solid 6px black;
+  border-radius:10px ;
+  margin-bottom: 20px;
+}
+.pokemon-card.selected {
+  border-color: #fff200; 
+  box-shadow: 0 0 10px rgba(248, 239, 3, 0.5);
+  background-color: #ffe6e6; 
+}
+.pokemon-card p {
+    margin-top: 20px;
+  font-size: 12px;
+  margin: 10px 0 0;
+  color: #555;
+}
+
+h5{
+    margin-top: 30px;
+  color: rgb(0, 1, 0);
+  margin-bottom: 20px;
+}
+.combat-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to bottom, #ff0000, #ff6666);
+  border: 3px solid #660000;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.combat-button:hover {
+  background: linear-gradient(to bottom, #ff6666, #ff0000);
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.combat-button:active {
+  background: linear-gradient(to bottom, #cc0000, #ff0000);
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.header-section {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultat-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.resultat-section .resultat {
+  max-width: 900px;
+  background-color: #ffffff;
+  border: 6px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #333;
+
+}
+
+.footer {
+  background-color: #333;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  border-top: 2px solid #000000;
+}
+
+.footer-content p {
+  margin: 0;
+}
+.footer{
+  background-color: #666666;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:rgb(255, 255, 255);
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  transition:0.5s;
+  }
+  
+
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
